@@ -1,1 +1,0 @@
-# sukham-resort
