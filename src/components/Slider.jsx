@@ -9,9 +9,9 @@ import 'swiper/css/scrollbar';
 
 import { EffectFade, Autoplay } from 'swiper';
 
-import Img1 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Aroundresort/Terrace view.jpeg'
-import Img2 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Real/WhatsApp Image 2023-04-29 at 13.43.17.jpeg'
-import Img3 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Aroundresort/Entrance.jpeg'
+import Img1 from '../assets/Img1.jpg'
+import Img2 from '../assets/Img1.jpg'
+import Img3 from '../assets/Img1.jpg'
 // import Img4 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Real/WhatsApp Image 2023-04-29 at 13.43.17.jpeg'
 
 const slides = [
