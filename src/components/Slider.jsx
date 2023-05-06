@@ -13,6 +13,7 @@ import { EffectFade, Autoplay } from 'swiper';
 import Img1 from '../assets/bandipur-tiger-reserve.jpg'
 import Img2 from '../assets/img.jpg'
 import Img3 from '../assets/img1.jpeg'
+
 // import Img4 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Real/WhatsApp Image 2023-04-29 at 13.43.17.jpeg'
 
 const slides = [
