@@ -6,22 +6,24 @@ import 'swiper/css/effect-fade'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { Pagination, Navigation } from "swiper";
 
 import { EffectFade, Autoplay } from 'swiper';
 
-import Img1 from '../assets/Img1.jpg'
-import Img2 from '../assets/Img1.jpg'
-import Img3 from '../assets/Img1.jpg'
+import Img1 from '../assets/bandipur-tiger-reserve.jpg'
+import Img2 from '../assets/img.jpg'
+import Img3 from '../assets/img1.jpeg'
+
 // import Img4 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Real/WhatsApp Image 2023-04-29 at 13.43.17.jpeg'
 
 const slides = [
     {
-        title: "Your Resort for Vacation",
+        title: "BandiPur Tiger Reserve",
         bg: Img1,
         btn: 'Book Now'
     },
     {
-        title: "Your Resort for Vacation",
+        title: "Mountains and trees",
         bg: Img2,
         btn: 'Book Now'
     },
@@ -37,19 +39,17 @@ const Slider = () => {
         <Swiper
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: false,
-        }}
-            // spaceBetween={50}
-            // slidesPerView={3}
-            // navigation
-            // pagination={{ clickable: true }}
-            // scrollbar={{ draggable: true }}
+        pagination={{
+            clickable: true,
+          }}
+          loop={true}
+          navigation={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          effect={"fade"}
+          modules={[Pagination, Navigation, EffectFade, Autoplay]}
             className="h-[180px] lg:h-[600px] md:h-[400px] "
         >
             {slides.map((slide,index) => {
