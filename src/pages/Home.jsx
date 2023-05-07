@@ -1,8 +1,9 @@
 import React from 'react'
-import Gallery from '../components/GalleryImage'
+import Activities from '../components/Activities'
 import HotelFeatures from '../components/HotelFeatures'
 import NearbyData from '../components/NearbyData'
 import Slider from '../components/Slider'
+import { ActivitiesData } from '../utils/ActivitiesData'
 import {data} from '../utils/data'
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Slider />
       <NearbyData data={data} />
       <HotelFeatures />
+      <Activities activity={ActivitiesData} />
     </div>
   )
 }
