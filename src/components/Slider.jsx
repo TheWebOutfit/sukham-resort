@@ -67,7 +67,7 @@ const Slider = () => {
                             {title}
                         </div>
                         <div className=' text-white absolute flex sm:justify-center items-center h-[300px] left-20 sm:left-0 md:h-[700px] w-screen'>
-                            <button className='ring ring-pink-500 ring-offset-4 rounded-md'>{btn}</button>
+                            <button className='ring ring-pink-500 ring-offset-4 p-3 rounded-md'>{btn}</button>
                         </div>
                         <div className='w-full h-full flex justify-center'>
                             <img className='object-fill h-full w-full' src={bg} alt="" />
