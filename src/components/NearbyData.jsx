@@ -1,17 +1,20 @@
-import {data} from '../utils/data'
-import Gallery from './Gallery';
+import Gallery from './GalleryImage';
 
-const NearbyData = () => {
+const NearbyData = ({data}) => {
   console.log(data);
   return (
-    <div>
+    <div className='bg-gradient-to-r from-[#8294C4] via-[#FCF8E8] to-[#D6E8DB] '>
+    <h1 className='text-center text-4xl font-bold p-8'>
+      NearBy Places
+    </h1>
+    <div className='wrapp content-center justify-center align-center px-10 pb-10 mx-auto w-4/5'>
       {
-            data.map((data) => {
-                const {id, img, description} = data;
-                <Gallery img={img} key={id} />
-            })
+        data.map((data) =>( 
+          <Gallery img={data.img} key={data.id} />
+          ))
         }
     </div>
+        </div>
   )
 }
 

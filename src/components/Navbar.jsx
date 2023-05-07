@@ -12,13 +12,15 @@ const Navbar = () => {
         <div className='flex '>
             
             <div className='m-3'>
+                <Link to={'/'}>
                 Home
+                </Link>
             </div>
             <div className='m-3'>
                 Nearby
             </div>
             <div className='m-3'>
-            <Link to="./Contact">Contact</Link>
+            <Link to="/Contact">Contact</Link>
 
             </div>
         </div>
