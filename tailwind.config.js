@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('../src/assets/bandipur-tiger-reserve.jpg')",
+      },
+      colors: {
+        'regal-grad1': '#006e3c',
+        'regal-grad2': '#84fc46',
+        'regal-grad3': '#125901'
+      },
+    },
   },
   plugins: [],
 }
