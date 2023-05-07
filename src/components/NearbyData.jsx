@@ -10,7 +10,7 @@ const NearbyData = ({data}) => {
     <div className='wrapp content-center justify-center align-center px-10 pb-10 mx-auto w-4/5'>
       {
         data.map((data) =>( 
-          <Gallery img={data.img} key={data.id} />
+          <Gallery data={data} key={data.id} />
           ))
         }
     </div>
