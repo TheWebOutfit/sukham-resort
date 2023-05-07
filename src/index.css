@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapp
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+}
+
+@media (max-width: 768px) {
+    .wrapp{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 3rem;
+    }
+}
+@media (max-width: 500px) {
+    .wrapp{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 3rem;
+    }
+}
