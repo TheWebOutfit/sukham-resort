@@ -3,7 +3,7 @@ import ActivitiesStruct from './ActivitiesStruct'
 
 const Activities = ({activity}) => {
   return (
-      <div className='bg-gradient-to-r from-[#DBDFEA] via-[#ACB1D6] to-[#B7B7B7]'>
+      <div className='bg-gradient-to-r from-[#868f96]  to-[#596164]'>
           <h1 className='text-4xl font-bold text-center p-4'>
                 Activites
             </h1>
