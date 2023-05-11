@@ -8,7 +8,7 @@ const HotelFeatures = () => {
     <div>
       
       <h1 className='text-center text-4xl font-bold p-5'>
-        Resort Feaatures
+        Resort Features
       </h1>
     <div className='flex justify-center p-5'>
 
