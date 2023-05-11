@@ -22,7 +22,7 @@ const ContactForm = () => {
     <>
       <div className="antialiased bg-hero bg-no-repeat bg-cover">
         <div className="flex w-full min-h-screen justify-center items-center">
-          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-black bg-opacity-70 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white sm:p-12 overflow-hidden">
+          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gradient-to-r from-[#434343] to-[#000000] bg-opacity-70 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white sm:p-12 overflow-hidden">
             <div className="flex flex-col space-y-8 justify-between">
               <div>
                 <h1 className="font-bold text-4xl tracking-wide">Contact Us</h1>
@@ -63,7 +63,7 @@ const ContactForm = () => {
               <div className="inline-flexspace-x-2 items-center">
                 
                  
-                  <button onClick={handleClickScroll} className="bg-white text-black rounded-lg shadow-lg px-6 py-4 align-middle font-bold text-xl hover:bg-black hover:text-white">Find Us <ArrowForwardIcon className="hover:rotate-90"/></button>
+                  <button onClick={handleClickScroll} className="bg-white text-black rounded-lg shadow-lg px-6 py-4 align-middle font-bold text-xl hover:bg-gradient-to-r from-[#434343] to-[#000000] hover:text-white">Find Us <ArrowForwardIcon className="hover:rotate-90"/></button>
                 </div>
               
             </div>
