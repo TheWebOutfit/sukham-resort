@@ -4,7 +4,7 @@ import img2 from '../assets/imgSir1.webp'
 import img3 from '../assets/imgSir2.webp'
 import img4 from '../assets/imgSir3.webp'
 import img5 from '../assets/imgSir4.webp'
-import img6 from '../assets/imgSir1.jpeg'
+import img6 from '../assets/imgSir1.webp'
 
 export const data = [
     {
@@ -82,10 +82,6 @@ export const data = [
         img: img,
         description: "This National Park was formed by including most of the forest areas of the then Venugopala Wildlife Park established under Govt. Notification dated 19th February 1941 and the area was enlarged in 1985 extending over an area of 874.20 Sq.Km and named as Bandipur National Park.",
     },
-    {
-        id:16,
-        img: img,
-        description: "This National Park was formed by including most of the forest areas of the then Venugopala Wildlife Park established under Govt. Notification dated 19th February 1941 and the area was enlarged in 1985 extending over an area of 874.20 Sq.Km and named as Bandipur National Park.",
-    },
+   
     
 ]
