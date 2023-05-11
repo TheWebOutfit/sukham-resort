@@ -4,7 +4,7 @@ import img2 from '../assets/imgSir1.webp'
 import img3 from '../assets/imgSir2.webp'
 import img4 from '../assets/imgSir3.webp'
 import img5 from '../assets/imgSir4.webp'
-import img6 from '../assets/imgSir1.jpeg'
+import img6 from '../assets/imgSir1.webp'
 
 export const data = [
     {
