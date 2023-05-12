@@ -9,7 +9,7 @@ const GalleryImage = ({data : {id, img, description}}) => {
     <div className='  cursor-pointer'>
 
       <Link to={`/place/${id}`}>
-      <img className='hover:scale-110 transition ease-in-out delay-150 duration-300 ' src={img} alt="" 
+      <img className='rounded-xl hover:scale-110 transition ease-in-out delay-150 duration-300 ' src={img} alt="" 
       />
       </Link>
 

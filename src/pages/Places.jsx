@@ -16,12 +16,20 @@ const Places = () => {
   console.log(id);
   console.log(placesData);
   return (
-    <div>
-      <img src={placesData.img} alt="" />
-      {
+    <div  >
+      <div className=' flex justify-center my-6 mx-6 '>
+      <img className='rounded-xl' src={placesData.img} alt="" />
+      </div>
+      <div className='lg:mx-32 md:mx-16 sm:mx-12 mx-5 mb-3 '>
+      <div className='flex justify-center  text-justify  '>
+     
+      { 
         placesData.description
       }
-    </div>
+      </div>
+      </div>
+      </div>
+    
   )
 }
 
