@@ -3,13 +3,13 @@ import CheckIcon from '@mui/icons-material/Check';
 const ActivityPack = () => {
   return (
     <div>
-      <div name='pricing' className='w-full text-white  bg-gradient-to-r from-[#9bafd9] to-[#103783]'>
+      <div name='pricing' className='w-full text-white  bg-gradient-to-r from-[#FFE2E2] via-[#F6F6F6] to-[#A6E3E9]'>
             <div className='absolute'>
 
             </div>
             <div className='max-w-[1240px] mx-auto py-12'>
                 <div className='text-center py-8 text-slate-300'>
-                    <h2 className='text-7xl uppercase text-[#FFD700] font-bold font-serif'>Pricing</h2>
+                    <h2 className='sm:text-7xl text-5xl uppercase text-[#FFD700] font-bold font-serif'>Pricing</h2>
                     
                    
                 </div>
