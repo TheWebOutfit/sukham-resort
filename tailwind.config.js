@@ -1,3 +1,5 @@
+import { duration } from '@mui/material'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -14,6 +16,7 @@ export default {
         'regal-grad2': '#84fc46',
         'regal-grad3': '#125901'
       },
+      
     },
   },
   plugins: [],

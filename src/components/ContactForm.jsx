@@ -22,7 +22,7 @@ const ContactForm = () => {
     <>
       <div className="antialiased bg-hero bg-no-repeat bg-cover">
         <div className="flex w-full min-h-screen justify-center items-center">
-          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-black bg-opacity-70 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white sm:p-12 overflow-hidden">
+          <div className=" flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gradient-to-r from-[#434343] to-[#000000] bg-opacity-70 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white sm:p-12 overflow-hidden">
             <div className="flex flex-col space-y-8 justify-between">
               <div>
                 <h1 className="font-bold text-4xl tracking-wide">Contact Us</h1>
@@ -63,7 +63,7 @@ const ContactForm = () => {
               <div className="inline-flexspace-x-2 items-center">
                 
                  
-                  <button onClick={handleClickScroll} className="bg-white text-black rounded-lg shadow-lg px-6 py-4 align-middle font-bold text-xl hover:bg-black hover:text-white">Find Us <ArrowForwardIcon className="hover:rotate-90"/></button>
+                  <button onClick={handleClickScroll} className="bg-white text-black rounded-lg shadow-lg px-6 py-4 align-middle font-bold text-xl hover:bg-gradient-to-r from-[#434343] to-[#000000] hover:text-white">Find Us <ArrowForwardIcon className="hover:rotate-90"/></button>
                 </div>
               
             </div>
@@ -118,7 +118,7 @@ const ContactForm = () => {
                         className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2  outline-none focus:ring-2 focus:ring-gray-800"
                       />
                     </div>
-                    <button type="" className=" bg-black text-white font-bold rounded-lg px-8 py-4 uppercase text-sm align-middle items-center justify-center hover:bg-white hover:text-black">
+                    <button  className=" bg-black text-white font-bold rounded-lg px-8 py-4 uppercase text-sm align-middle items-center justify-center hover:bg-white hover:text-black">
                       Send Message
                     </button>
                   </form>
