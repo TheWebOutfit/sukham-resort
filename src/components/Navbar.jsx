@@ -9,17 +9,23 @@ const Navbar = () => {
             <span className='text-[#F7F5EB]'>Sukham</span> Resort
         </div>
 
-        <div className='flex '>
+        <div className='flex font-semibold font-serif'>
             
-            <div className='m-3'>
+            <div className='m-3 text-xl '>
                 <Link to={'/'}>
                 Home
                 </Link>
             </div>
-            <div className='m-3'>
-                Nearby
+            <div className='m-3 text-xl'>
+                About Us
             </div>
-            <div className='m-3'>
+            <div className='m-3 text-xl'>
+                NearBY
+            </div>
+            <div className='m-3 text-xl'>
+                <Link to="/Career">Career</Link>
+            </div>
+            <div className='m-3 text-xl'>
             <Link to="/Contact">Contact</Link>
 
             </div>

@@ -118,7 +118,7 @@ const ContactForm = () => {
                         className="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 mt-2  outline-none focus:ring-2 focus:ring-gray-800"
                       />
                     </div>
-                    <button type="" className=" bg-black text-white font-bold rounded-lg px-8 py-4 uppercase text-sm align-middle items-center justify-center hover:bg-white hover:text-black">
+                    <button  className=" bg-black text-white font-bold rounded-lg px-8 py-4 uppercase text-sm align-middle items-center justify-center hover:bg-white hover:text-black">
                       Send Message
                     </button>
                   </form>
