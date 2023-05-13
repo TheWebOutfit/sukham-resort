@@ -11,21 +11,18 @@ const Navbar = () => {
 
         <div className='flex font-semibold font-serif'>
             
-            <div className='m-3 text-xl '>
+            <div className=' m-1 sm:m-3'>
                 <Link to={'/'}>
                 Home
                 </Link>
             </div>
-            <div className='m-3 text-xl'>
+            <div className='m-1 sm:m-3'>
                 About Us
             </div>
-            <div className='m-3 text-xl'>
-                NearBY
-            </div>
-            <div className='m-3 text-xl'>
+            <div className='m-1 sm:m-3'>
                 <Link to="/Career">Career</Link>
             </div>
-            <div className='m-3 text-xl'>
+            <div className='m-1 sm:m-3'>
             <Link to="/Contact">Contact</Link>
 
             </div>

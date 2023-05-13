@@ -3,7 +3,7 @@ import room from "../assets/hotelroom.webp";
 const Room = () => {
   return (
     <div className="flex flex-col md:flex-row sm:p-10 p-2 items-center m-auto justify-center">
-      <div className=" flex w-80 h-80 md:w-1/2 rounded-md">
+      <div className=" flex h-80 sm:w- rounded-md">
         <img src={room} alt="" />
       </div>
       <div className="md:w-1/2 md:font-bold md:text-xl mt-6 md:mt-0 md:ml-10 text-center">
