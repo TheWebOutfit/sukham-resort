@@ -18,6 +18,7 @@
     "puppeteer": "^20.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.11.1",
     "spinners-react": "^1.0.7",
     "swiper": "^9.2.4"
