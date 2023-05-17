@@ -6,7 +6,7 @@ const JobForm = () => {
   const [gender, setGender] = useState("");
   const [dateOfBirth, setDateOfBirth] = useState("");
   const [workExperience, setWorkExperience] = useState("");
-  
+  const [workExp, setworkExp]=useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,7 +15,7 @@ const JobForm = () => {
   return (
     <div className="max-w-lg mx-auto">
       <h1 className=" font-bold mb-4 justify-center items-center text-center mt-4 font-serif text-4xl">Job Application Form</h1>
-      <form action='https://formspree.io/f/xdovjgyg' method='POST' onSubmit={handleSubmit}>
+      <form action='https://getform.io/f/4fc7ea5e-1f12-4ac5-bbb9-ea3220b6f0a5' method='POST' onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-700 font-bold mb-2" htmlFor="name">
             Name
@@ -23,7 +23,7 @@ const JobForm = () => {
           <input
             className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="name"
-            name='username'
+            name='name'
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -38,7 +38,7 @@ const JobForm = () => {
           <input
             className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="age"
-            name='age'
+            name='message'
             type="number"
             value={age}
             onChange={(e) => setAge(e.target.value)}
@@ -85,7 +85,7 @@ const JobForm = () => {
           <input
             className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="workExperience"
-            name='number'
+            name='work-experience'
             type="number"
             value={workExperience}
             onChange={(e) => setWorkExperience(e.target.value)}
@@ -103,13 +103,14 @@ const JobForm = () => {
             name='message'
             type="text"
             rows="10"
-            value={workExperience}
+            value={workExp}
+            onChange={(e)=>setworkExp(e.target.value)}
            
             placeholder='Tell Us about your Past Work Experience!!'
             required
           />
         </div>
-        <button className='bg-black rounded-md text-white px-8 py-4 w-full mb-4 font-bold text-lg'>
+        <button type='submit' onClick={handleSubmit} className='bg-black rounded-md text-white px-8 py-4 w-full mb-4 font-bold text-lg'>
           Apply 
         </button>
         </form>

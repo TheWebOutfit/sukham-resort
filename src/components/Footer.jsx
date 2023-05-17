@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
      
       <div className=' flex col-span-2 ml-10 pt-8 md:pt-2 items-center justify-center'>
-                  <h1 className="font-semibold text-2xl items-center "><span className="font-bold text-5xl text-[#FFD700]">SUKHAM</span> RESORT</h1>
+                  <h1 className="font-semibold text-2xl items-center "><span className="font-bold text-5xl text-gold">SUKHAM</span> RESORT</h1>
                 </div>
         
         
