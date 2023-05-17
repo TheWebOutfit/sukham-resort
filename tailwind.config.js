@@ -14,7 +14,8 @@ export default {
       colors: {
         'regal-grad1': '#006e3c',
         'regal-grad2': '#84fc46',
-        'regal-grad3': '#125901'
+        'regal-grad3': '#125901',
+        'gold':'#FFD700'
       },
       
     },

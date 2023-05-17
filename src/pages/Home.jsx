@@ -7,11 +7,13 @@ import Slider from '../components/Slider'
 import { ActivitiesData } from '../utils/ActivitiesData'
 import {data} from '../utils/data'
 import ActivityPack from '../components/ActivityPack'
+import About from '../components/About'
 
 const Home = () => {
   return (
     <div>
       <Slider />
+      <About />
       <Room />
       <NearbyData data={data} />
       <HotelFeatures />
