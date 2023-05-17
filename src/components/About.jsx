@@ -2,8 +2,9 @@ import React from "react";
 import aboutImg from "../assets/imgSir1.webp";
 
 const About = () => {
+    
   return (
-    <div className="mx-auto bg-gray-200  p-8 ">
+    <div className="mx-auto bg-gray-200  p-8 " id="about">
       <h1 className="flex justify-center items-center  text-gray-700 font-bold mb-5 text-5xl font-serif">About Us</h1>
       <div className="md:grid md:grid-cols-2 md:mb-4 items-center justify-between space-x-9 flex flex-col  ">
         <img className="flex rounded-lg shadow-lg shadow-gray-600" src={aboutImg} alt="SUKHAM" />
