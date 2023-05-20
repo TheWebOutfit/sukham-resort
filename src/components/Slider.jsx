@@ -10,26 +10,28 @@ import { Pagination, Navigation } from "swiper";
 
 import { EffectFade, Autoplay } from 'swiper';
 
-import Img1 from '../assets/bandipur-tiger-reserve.jpg'
-import Img2 from '../assets/img.jpg'
-import Img3 from '../assets/img1.jpeg'
+
+import Room1 from '../assets/Slider/Room1.jpeg'
+import sullivans from '../assets/Slider/sullivans.jpg'
+import terrace from '../assets/Slider/Terrace.jpeg'
+
 
 // import Img4 from '../assets/SUKHAMRESORT/Way to SUKHAM Resort/Real/WhatsApp Image 2023-04-29 at 13.43.17.jpeg'
 
 const slides = [
     {
         title: "BandiPur Tiger Reserve",
-        bg: Img1,
+        bg: Room1,
         btn: 'Book Now'
     },
     {
         title: "Mountains and trees",
-        bg: Img2,
+        bg: sullivans,
         btn: 'Book Now'
     },
     {
         title: "Your Resort for Vacation",
-        bg: Img3,
+        bg: terrace,
         btn: 'Book Now'
     }
 ]

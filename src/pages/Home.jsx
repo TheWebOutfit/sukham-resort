@@ -9,11 +9,14 @@ import {data} from '../utils/data'
 import ActivityPack from '../components/ActivityPack'
 import About from '../components/About'
 
+import AboutComp from '../components/AboutComp'
+
 const Home = () => {
   return (
     <div>
       <Slider />
-      <About />
+      <AboutComp />
+
       <Room />
       <NearbyData data={data} />
       <HotelFeatures />
