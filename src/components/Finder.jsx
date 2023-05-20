@@ -20,7 +20,7 @@ const Finder = ({ jobs: { salary, title, jobType, description, time } }) => {
             <p className="text-[13px] text-black mt-3"><span className="font-bold">Salary :</span> {salary}</p>
           </div>
           <button className="border-[2px] rounded-md black p-2 w-full bg-black text-white text-sm font-semibold mt-4">
-            <Link to='/JobForm'>Apply Now</Link>
+            <Link to='https://form.jotform.com/231376614933459'>Apply Now</Link>
           </button>
         </div>
       </div>

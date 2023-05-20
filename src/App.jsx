@@ -9,11 +9,12 @@ import Career from './pages/Career';
 import JobForm from './components/JobForm';
 import Login from './pages/Login';
 import { useState } from 'react';
+import AboutUs from './pages/AboutUs';
 
 
 const App = () => {
 
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState(true);
   console.log(login);
   return (
     <div className=''>
@@ -28,6 +29,8 @@ const App = () => {
         <Route path='/Contact' element={<Contact/>} />
         <Route path='/Career' element={<Career/>} />
         <Route path='/JobForm' element={<JobForm/>} />
+        <Route path='/AboutUs' element={<AboutUs/>} />
+
         
       </Routes>
 }

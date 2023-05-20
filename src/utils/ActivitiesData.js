@@ -1,6 +1,6 @@
-import img1 from '../assets/boenFire.jpeg'
-import img2 from '../assets/tracking.jpg'
-import img3 from '../assets/beach.jpg'
+import img1 from '../assets/Activites/boenFire.jpeg'
+import img2 from '../assets/Activites/tracking.jpg'
+import img3 from '../assets/Activites/beach.jpg'
 
 export const ActivitiesData = [
     {
