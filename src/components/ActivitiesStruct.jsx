@@ -1,6 +1,5 @@
 
-const ActivitiesStruct = ({ activity: { id, img, heading, desc } }) => {
-    console.log(img);
+const ActivitiesStruct = ({ activity: { img, heading, desc } }) => {
     return (
 
         <div>

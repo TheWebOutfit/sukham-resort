@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
-const GalleryImage = ({ data: { id, img, description } }) => {
-  const navigate = useNavigate();
+import { Link } from 'react-router-dom';
+
+const GalleryImage = ({data : {id, img}}) => {
+
 
   return (
     

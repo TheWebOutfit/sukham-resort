@@ -1,4 +1,5 @@
 import React from "react";
+
 import aboutImg from "../assets/AboutUs/img.jpg";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import {Link} from 'react-router-dom'
@@ -35,6 +36,7 @@ const About = ({data:{description}}) => {
             Read More <ArrowRightAltIcon className="hover:text-blue-500" />
           </p>
           </Link>
+
           
         </div>
       </div>

@@ -1,7 +1,6 @@
 import Gallery from './GalleryImage';
 
 const NearbyData = ({data}) => {
-  console.log(data);
   return (
     <div className='bg-gradient-to-r from-[#8294C4] via-[#FCF8E8] to-[#D6E8DB] '>
     <h1 className='text-center text-4xl font-bold p-8'>

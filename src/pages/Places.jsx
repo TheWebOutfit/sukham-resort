@@ -13,8 +13,6 @@ const Places = () => {
     }
   }, []);
 
-  console.log(id);
-  console.log(placesData);
   return (
     
     <div
@@ -51,5 +49,6 @@ const Places = () => {
     </div>
   );
 };
+
 
 export default Places;

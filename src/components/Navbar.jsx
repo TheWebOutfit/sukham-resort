@@ -23,9 +23,12 @@ const Navbar = () => {
                 Home
                 </Link>
             </div>
+
             <div className='m-1 sm:m-3'>
                 
                 <Link to='/AboutUs'>About Us</Link>
+            <div className='m-1 sm:m-3' onClick={handleClickScroll}>
+                About Us
             </div>
             <div className='m-1 sm:m-3'>
                 <Link to="/Career">Career</Link>
