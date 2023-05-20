@@ -13,8 +13,6 @@ const Places = () => {
     }
   }, []);
 
-  console.log(id);
-  console.log(placesData);
   return (
     <div  >
       <div className=' flex justify-center my-6 mx-6 '>
@@ -27,6 +25,12 @@ const Places = () => {
         placesData.description
       }
       </div>
+      </div>
+      <div className='flex justify-center '>
+        {
+          placesData.map && 
+          <iframe src={placesData.map} width="900" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        }
       </div>
       </div>
     
