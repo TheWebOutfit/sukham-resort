@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom'
 
-const GalleryImage = ({data : {id, img, description}}) => {
+const GalleryImage = ({data : {id, img}}) => {
 
-  const navigate = useNavigate();
 
   return (
     <div className='  cursor-pointer'>
