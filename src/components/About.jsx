@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 const About = ({data:{description}}) => {
   return (
     <div
-      className="mx-auto bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4]  p-8 "
+      className="mx-auto  p-8 "
       id="about"
     >
       <h1 className="flex justify-center items-center  text-gray-900 font-bold mb-[2.25rem] text-5xl font-serif ">
