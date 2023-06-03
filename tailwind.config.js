@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('../src/assets/bandipur-tiger-reserve.jpg')",
+        'hero': "url('../src/assets/AboutUs/img.jpg')",
       },
       colors: {
         'regal-grad1': '#006e3c',

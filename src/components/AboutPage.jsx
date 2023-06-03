@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div>
       <AboutComp />
       
-      <div className="mx-auto bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4]  p-8 " id="about">
+      <div className="mx-auto   p-8 " id="about">
       <h1 className="flex justify-center items-center  text-gray-900 font-bold mb-5 text-5xl font-serif"><span className='border-b-4 mt-2 border-black border-double'>Where are we</span></h1>
       <div className=" md:mb-4 items-center justify-between space-x-9 flex flex-col  ">
       <iframe

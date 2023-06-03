@@ -14,7 +14,7 @@ const ActivityPack = () => {
                    
                 </div>
                 <div className='grid md:grid-cols-3 '>
-                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 ease-in-out delay-150 duration-200'>
+                    <div className='bg-white p-8 m-4 rounded-xl shadow-2xl text-slate-900 relative hover:scale-110 ease-out delay-150 duration-200'>
                         <span className='uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-xl text-sm'>1 Day</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>$49</p>

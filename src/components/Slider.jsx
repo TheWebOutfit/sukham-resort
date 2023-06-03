@@ -31,7 +31,7 @@ const slides = [
     },
     {
         title: "Your Resort for Vacation",
-        bg: terrace,
+        bg: Room1,
         btn: 'Book Now'
     }
 ]
