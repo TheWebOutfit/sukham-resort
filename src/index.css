@@ -21,3 +21,7 @@
         grid-gap: 3rem;
     }
 }
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../src/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
+}
