@@ -6,7 +6,7 @@ const GalleryImage = ({data : {id, img}}) => {
 
   return (
     
-    <div className="rounded-md shadow-lg object-cover hover:scale-110 ease-out duration-300">
+    <div className="rounded-md shadow-lg object-cover hover:scale-110 ease-out duration-300  shadow-slate-400">
       
         <Link to={`/place/${id}`} >
           <img

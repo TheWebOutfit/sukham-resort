@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { data } from "../utils/data";
+import { WidthFull } from "@mui/icons-material";
 
 const Places = () => {
   const { id } = useParams();
@@ -16,7 +17,7 @@ const Places = () => {
   return (
     
     <div
-      className="mx-auto bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4]  p-8 "
+      className="mx-auto   p-8 "
       id="about"
     >
       <h1 className="flex justify-center items-center  text-gray-900 font-bold mb-[2.25rem] text-5xl font-serif ">
@@ -40,10 +41,10 @@ const Places = () => {
         </div>
 
       </div>
-      <div className="flex justify-center items-center w-full">
+      <div className="flex justify-center items-center w-full m-8 p-2 bg-gray-400 bg-opacity-10 shadow-md shadow-gray-500 ml-1 rounded-lg ">
 
         {placesData.map && 
-        <iframe src={placesData.map} width="900" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src={placesData.map} style={{width:'100%'}} height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       }
       </div>
     </div>
