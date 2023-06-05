@@ -16,59 +16,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        // <div className='flex flex-col sticky z-10 sm:flex-row justify-between content-center items-center  text-center bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4]'>
-        //     <div className='font-bold text-4xl p-3  uppercase '>
-        //         <span className='text-gold'>Sukham</span> Resort
-        //     </div>
-
-        //     <div className='flex justify-between ml-4-2  space-x-6 p-2 items-center font-semibold font-serif '>
-
-        //         <ul className='hidden md:flex m-1 space-x-4 '>
-        //             <li className='hover:text-gray-200'>
-        //                 <Link to="/"  >
-        //                     Home
-        //                 </Link>
-        //             </li>
-        //             <li className='hover:text-gray-200'>
-        //                 <Link to="/AboutUs"  >
-        //                     About
-        //                 </Link>
-        //             </li>
-
-
-        //             <li className='hover:text-gray-200'>
-        //                 <Link to="/Contact"   >
-        //                     Contact Us
-        //                 </Link>
-        //             </li>
-        //             <li className='hover:text-gray-200'>
-        //                 <Link to="/Career"   >
-        //                     Career
-        //                 </Link>
-        //             </li>
-        //         </ul>
-        //     </div>
-        //     <div onClick={handleClick} className='md:hidden z-10 flex left-6 ml-4 p-2'>
-        //         {!nav ? <FaBars /> : <FaTimes />}
-        //     </div>
-        //     <ul className={!nav ? 'hidden' : ' top-0 left-0 w-full  bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4]  flex flex-col justify-center items-center'}>
-        //         <li className='py-3 text-2xl font-serif hover:text-gray-200'><Link onClick={handleClick} to="/">
-        //             Home
-        //         </Link></li>
-        //         <li className='py-3 text-2xl font-serif hover:text-gray-200'><Link onClick={handleClick} to="/AboutUs"  >
-        //             About
-        //         </Link></li>
-
-
-        //         <li className='py-3 text-2xl font-serif hover:text-gray-200'><Link onClick={handleClick} to="/Contact" >
-        //             Contact Us
-        //         </Link></li>
-        //         <li className='py-3 text-2xl font-serif hover:text-gray-200'><Link onClick={handleClick} to="/Career"  >
-        //             Contact Us
-        //         </Link></li>
-        //     </ul>
-        // </div>
-        <>
+      <>
             <nav className="w-full bg-gradient-to-r from-[#8294C4] via-[#DBDFEA] to-[#D5B4B4] shadow-xl shadow-slate-500">
                 <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                     <div>

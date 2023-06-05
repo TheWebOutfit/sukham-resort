@@ -28,12 +28,12 @@ const About = ({data:{description}}) => {
               SUKHAM
             </span>
           </h2>
-          <p className="text-gray-900 text-lg">
+          <p className="text-gray-900 text-lg font-paraFont">
            {description}
           </p>
           <Link to='/AboutUs'>
           <p className="mt-3 text-xl w-fit hover:border-b-2 hover:border-blue-500 hover:w-fit hover:text-blue-500 hover:cursor-pointer">
-            Read More <ArrowRightAltIcon className="hover:text-blue-500" />
+           Read More <ArrowRightAltIcon className="hover:text-blue-500" />
           </p>
           </Link>
 

@@ -1,5 +1,6 @@
 import { duration } from '@mui/material'
 
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -17,6 +18,9 @@ export default {
         'regal-grad3': '#125901',
         'gold':'#FFD700'
       },
+      fontFamily:{
+        paraFont:['Roboto Slab', 'serif']
+      }
       
     },
   },

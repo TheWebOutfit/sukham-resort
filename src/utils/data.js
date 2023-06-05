@@ -117,7 +117,7 @@ export const data = [
     {
         id:10,
         img: other3,
-        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.7111784464573!2d76.79714367491654!3d11.355793888830348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8951d4c88de69%3A0x8c5b8f9fbd0a0067!2sSim&#39;s%20Park!5e0!3m2!1sen!2sin!4v1684539916926!5m2!1sen!2sin",
+        map:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.7100746412343!2d76.79817376480602!3d11.355874391929872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8951d4c88de69%3A0x8c5b8f9fbd0a0067!2sSim&#39;s%20Park!5e0!3m2!1sen!2sin!4v1685905125887!5m2!1sen!2sin",
         title:"Sim's Park",
         description:`Be sure to take some time off for Sim’s Park in Coonoor when you’re exploring the popular tourist attractions in Ooty. Home to 1000 plus species of colourful and vibrant flowers, the Sim’s Park is a well-maintained botanical garden where you can enjoy nature at its best along with exploring the breathtaking landscapes.
 
