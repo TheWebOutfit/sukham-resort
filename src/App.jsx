@@ -10,6 +10,7 @@ import JobForm from './components/JobForm';
 import Login from './pages/Login';
 import { useState } from 'react';
 import AboutUs from './pages/AboutUs';
+import SignUp from './pages/SignUp';
 
 
 const App = () => {
@@ -30,6 +31,9 @@ const App = () => {
         <Route path='/Career' element={<Career/>} />
         <Route path='/JobForm' element={<JobForm/>} />
         <Route path='/AboutUs' element={<AboutUs/>} />
+        <Route path='/Login' element={<Login/>} />
+        <Route path='/Sign' element={<SignUp/>} />
+
 
         
       </Routes>

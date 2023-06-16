@@ -88,14 +88,14 @@ const Navbar = () => {
                                 
 
                                 <Link
-                                    to="/"
+                                    to="/Login"
                                     className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600  rounded-md  hover:scale-110 ease-in duration-150 hover:bg-gray-800 shadow-md shadow-gray-500 "
                                 >
                                     Sign in
                                 </Link>
                                
                                 <Link
-                                    to="/"
+                                    to="/Sign"
                                     className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow-md shadow-slate-500 hover:scale-110 ease-in duration-150 hover:bg-gray-100"
                                 >
                                     Sign up
@@ -105,13 +105,13 @@ const Navbar = () => {
                     </div>
                     <div className="hidden space-x-4 md:flex  ">
                         <Link
-                            to="/"
+                            to="/Login"
                             className="px-4 py-2 text-white bg-gray-600 hover:bg-gray-800 hover:scale-110 ease-out duration-300 rounded-md shadow-md shadow-gray-500 "
                         >
                             Sign in
                         </Link>
                         <Link
-                            to="/"
+                            to="/Sign"
                             className="px-4 py-2 text-gray-800 bg-white rounded-md  hover:scale-110 ease-out duration-300 hover:bg-gray-100  shadow-md shadow-slate-500"
                         >
                             Sign up
